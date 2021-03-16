@@ -27,13 +27,14 @@ void setup() {
     while (1); //loop forever
   }
   Serial.println("EAAPMST3923A2 found! :)");
-  light_sense.writeByte(CONFIGURE,0xD4); // configure for continuous reading on both sensors, 100mA drive current
+  light_sense.writeByte(CONFIGURE, 0xB4); // configure for continuous reading on both sensors, 100mA drive current
 }
 
 
 void loop() {
-  delay(500);
+  delay(200);
   Serial.print("ALS ");
-  Serial.println(light_sense.als(), HEX);
-  Serial.println(light_sense.ps(), HEX);
+  Serial.println(light_sense.als());
+  Serial.print("PS ");
+  Serial.println(light_sense.ps());
 }
