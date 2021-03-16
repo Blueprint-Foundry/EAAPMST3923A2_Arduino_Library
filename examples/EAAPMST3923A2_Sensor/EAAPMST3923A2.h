@@ -32,7 +32,6 @@ class EAAPMST3923A2
   private:  // These private functions are not available to Arduino sketches.
     byte deviceAddress; // I2C Address of PI4IOE5V96248
     byte readByte(byte registerAddress);
-    unsigned readWord(byte registerAddress);
 
   public:  // These public functions are available to Arduino sketches.
     EAAPMST3923A2();

@@ -18,13 +18,6 @@ EAAPMST3923A2::EAAPMST3923A2()
 
 // readByte(byte registerAddress)
 //  This function reads a single byte located at the registerAddress register.
-unsigned int EAAPMST3923A2::readWord(byte registerAddress)
-{
-  return 0;
-}
-
-// readByte(byte registerAddress)
-//  This function reads a single byte located at the registerAddress register.
 byte EAAPMST3923A2::readByte(byte registerAddress)
 {
   byte readValue;
