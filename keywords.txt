@@ -12,4 +12,7 @@ EAAPMST3923A2	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-begin		KEYWORD2
+begin		    KEYWORD2
+als         KEYWORD2
+ps          KEYWORD2
+writeByte   KEYWORD2
