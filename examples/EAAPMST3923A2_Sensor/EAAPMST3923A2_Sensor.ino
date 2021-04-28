@@ -7,7 +7,7 @@
   This example shows most options available on the EAAPMST3923A2 light and proximity sensor
 */
 #include <Wire.h>
-#include "EAAPMST3923A2.h"
+#include <EAAPMST3923A2.h>
 
 EAAPMST3923A2 light_sense; // Object for communicating with the light and proximity sensor
 const byte EAAPMST3923A2_ADDRESS = 0x44;  // EAAPMST3923A2 has a fixed 0x44 address
