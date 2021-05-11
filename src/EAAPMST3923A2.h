@@ -10,7 +10,7 @@
 //Register Definitions
 #define PRODUCT_ID  0x00  //Default 0x21
 #define CONFIGURE   0x01  //Default 0xBC, See Datasheet Pg 9 
-#define INTERRUPT   0x02  //Default 0x8B, See Datasheet Pg 9
+#define INT_EAAPM   0x02  //Default 0x8B, See Datasheet Pg 9
 #define PS_LT       0x03  //Default 0x00, 8-bit interrupt low threshold for proximity
 #define PS_HT       0x04  //Default 0xFF, 8-bit interrupt high threshold for proximity
 #define ALS_TH1     0x05  //Default 0x00, Lower 8 bits interrupt low threshold for ALS (light)
